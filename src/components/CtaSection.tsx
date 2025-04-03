@@ -37,7 +37,7 @@ const CtaSection = () => {
             
             <div className="hidden lg:block relative">
               <img 
-                src="https://images.unsplash.com/photo-1593280405106-e438ebe93f5b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=900&q=80" 
+                src="https://images.unsplash.com/photo-1618588507085-c79565432917?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=900&q=80" 
                 alt="Engenharia agroindustrial" 
                 className="h-full w-full object-cover"
               />

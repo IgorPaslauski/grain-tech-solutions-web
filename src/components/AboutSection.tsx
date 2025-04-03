@@ -62,14 +62,14 @@ const AboutSection = () => {
           <div className="grid grid-cols-2 gap-4">
             <div className="relative h-64 rounded-lg overflow-hidden shadow-md">
               <img 
-                src="https://images.unsplash.com/photo-1625246333195-78d73c0b3d4a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" 
+                src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" 
                 alt="Equipe GrainTech" 
                 className="w-full h-full object-cover"
               />
             </div>
             <div className="relative h-64 rounded-lg overflow-hidden shadow-md mt-8">
               <img 
-                src="https://images.unsplash.com/photo-1542493316-92371322d173?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" 
+                src="https://images.unsplash.com/photo-1567789884554-0b844b597180?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" 
                 alt="Instalações GrainTech" 
                 className="w-full h-full object-cover"
               />
@@ -83,7 +83,7 @@ const AboutSection = () => {
             </div>
             <div className="relative h-64 rounded-lg overflow-hidden shadow-md mt-8">
               <img 
-                src="https://images.unsplash.com/photo-1592968309818-71ee0c593c1e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" 
+                src="https://images.unsplash.com/photo-1543674892-7d64d45facad?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" 
                 alt="Silos GrainTech" 
                 className="w-full h-full object-cover"
               />

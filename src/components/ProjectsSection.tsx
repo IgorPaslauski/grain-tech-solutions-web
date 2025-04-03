@@ -9,42 +9,42 @@ const projects = [
     title: "Complexo de Silos em Sorriso - MT",
     category: "Armazenagem",
     description: "Projeto e construção de um complexo com capacidade para 100.000 toneladas de grãos, incluindo sistema automatizado de controle de temperatura e umidade.",
-    image: "https://images.unsplash.com/photo-1542222378-38fee92226ae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=900&q=80"
+    image: "https://images.unsplash.com/photo-1615288630158-c785a2621336?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=900&q=80"
   },
   {
     id: 2,
     title: "Modernização de Planta Industrial em Rondonópolis - MT",
     category: "Automação",
     description: "Implementação de sistema de automação industrial para controle e monitoramento de processos de secagem e armazenamento de grãos.",
-    image: "https://images.unsplash.com/photo-1581092921461-39b11a63ae62?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=900&q=80"
+    image: "https://images.unsplash.com/photo-1581092160607-ee22731c9c7c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=900&q=80"
   },
   {
     id: 3,
     title: "Terminal Logístico em Santos - SP",
     category: "Logística",
     description: "Desenvolvimento de terminal logístico para expedição de grãos, com capacidade de processamento de 500 toneladas por hora.",
-    image: "https://images.unsplash.com/photo-1575379574401-a277c66ae900?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=900&q=80"
+    image: "https://images.unsplash.com/photo-1587293852726-70cdb56c2866?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=900&q=80"
   },
   {
     id: 4,
     title: "Planta de Processamento em Rio Verde - GO",
     category: "Processamento",
     description: "Projeto e construção de planta de processamento de soja com tecnologia de ponta para produção de farelo e óleo.",
-    image: "https://images.unsplash.com/photo-1507136559361-e26bf5db4dac?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=900&q=80"
+    image: "https://images.unsplash.com/photo-1605146768851-eda79da39897?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=900&q=80"
   },
   {
     id: 5,
     title: "Centro de Distribuição em Cascavel - PR",
     category: "Logística",
     description: "Desenvolvimento de centro de distribuição com sistema integrado de controle de estoque e expedição de produtos agrícolas.",
-    image: "https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=900&q=80"
+    image: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=900&q=80"
   },
   {
     id: 6,
     title: "Silos Metálicos em Luis Eduardo Magalhães - BA",
     category: "Armazenagem",
     description: "Construção de conjunto de silos metálicos com capacidade total de 80.000 toneladas para armazenamento de milho e soja.",
-    image: "https://images.unsplash.com/photo-1517404858869-15d7ea7519c8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=900&q=80"
+    image: "https://images.unsplash.com/photo-1608508005890-ba48d1c617cf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=900&q=80"
   }
 ];
 
