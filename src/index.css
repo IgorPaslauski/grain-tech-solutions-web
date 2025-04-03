@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -13,16 +16,16 @@
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 222.2 47.4% 11.2%;
+    --primary: 210 100% 50%;
     --primary-foreground: 210 40% 98%;
 
-    --secondary: 210 40% 96.1%;
+    --secondary: 150 50% 50%;
     --secondary-foreground: 222.2 47.4% 11.2%;
 
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
 
-    --accent: 210 40% 96.1%;
+    --accent: 150 50% 50%;
     --accent-foreground: 222.2 47.4% 11.2%;
 
     --destructive: 0 84.2% 60.2%;
@@ -35,19 +38,12 @@
     --radius: 0.5rem;
 
     --sidebar-background: 0 0% 98%;
-
     --sidebar-foreground: 240 5.3% 26.1%;
-
     --sidebar-primary: 240 5.9% 10%;
-
     --sidebar-primary-foreground: 0 0% 98%;
-
     --sidebar-accent: 240 4.8% 95.9%;
-
     --sidebar-accent-foreground: 240 5.9% 10%;
-
     --sidebar-border: 220 13% 91%;
-
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
 
@@ -97,5 +93,53 @@
 
   body {
     @apply bg-background text-foreground;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    @apply font-bold;
+  }
+}
+
+@layer components {
+  .section-padding {
+    @apply py-16 md:py-24;
+  }
+  
+  .heading-xl {
+    @apply text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight;
+  }
+  
+  .heading-lg {
+    @apply text-3xl md:text-4xl font-bold leading-tight;
+  }
+  
+  .heading-md {
+    @apply text-2xl md:text-3xl font-bold leading-tight;
+  }
+  
+  .heading-sm {
+    @apply text-xl md:text-2xl font-semibold leading-tight;
+  }
+  
+  .btn-primary {
+    @apply bg-grain-blue-600 text-white hover:bg-grain-blue-700 px-6 py-3 rounded-md font-semibold transition-all duration-300;
+  }
+  
+  .btn-secondary {
+    @apply bg-grain-green-600 text-white hover:bg-grain-green-700 px-6 py-3 rounded-md font-semibold transition-all duration-300;
+  }
+  
+  .btn-outline {
+    @apply border-2 border-grain-blue-600 text-grain-blue-600 hover:bg-grain-blue-600 hover:text-white px-6 py-3 rounded-md font-semibold transition-all duration-300;
+  }
+
+  .card-service {
+    @apply bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-all duration-300 h-full;
+  }
+  
+  .card-project {
+    @apply bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300;
   }
 }
