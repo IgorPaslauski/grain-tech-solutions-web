@@ -4,9 +4,9 @@ import { Button } from "@/components/ui/button";
 
 const CtaSection = () => {
   return (
-    <section id="orcamento" className="py-16 bg-grain-blue-600">
+    <section id="orcamento" className="py-16 bg-folgen-primary">
       <div className="container mx-auto px-4">
-        <div className="bg-gradient-to-r from-grain-blue-700 to-grain-blue-600 rounded-xl shadow-2xl overflow-hidden">
+        <div className="bg-gradient-to-r from-folgen-primary to-folgen-secondary rounded-xl shadow-2xl overflow-hidden">
           <div className="grid grid-cols-1 lg:grid-cols-2">
             <div className="p-8 md:p-12 lg:p-16">
               <h2 className="heading-lg text-white mb-6">
@@ -20,7 +20,7 @@ const CtaSection = () => {
               <div className="space-y-4 md:space-y-0 md:flex md:space-x-4">
                 <Button 
                   size="lg"
-                  className="w-full md:w-auto bg-white text-grain-blue-600 hover:bg-gray-100"
+                  className="w-full md:w-auto bg-white text-folgen-primary hover:bg-gray-100"
                   onClick={() => document.getElementById("contato")?.scrollIntoView({behavior: "smooth"})}
                 >
                   Solicitar Orçamento
@@ -28,7 +28,7 @@ const CtaSection = () => {
                 <Button 
                   variant="outline" 
                   size="lg"
-                  className="w-full md:w-auto bg-transparent border-2 border-white text-white hover:bg-white hover:text-grain-blue-600"
+                  className="w-full md:w-auto bg-transparent border-2 border-white text-white hover:bg-white hover:text-folgen-primary"
                 >
                   Agendar Reunião
                 </Button>
@@ -41,7 +41,7 @@ const CtaSection = () => {
                 alt="Engenharia agroindustrial" 
                 className="h-full w-full object-cover"
               />
-              <div className="absolute inset-0 bg-gradient-to-l from-transparent to-grain-blue-700/80"></div>
+              <div className="absolute inset-0 bg-gradient-to-l from-transparent to-folgen-primary/80"></div>
             </div>
           </div>
         </div>

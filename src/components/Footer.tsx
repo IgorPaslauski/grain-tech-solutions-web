@@ -9,19 +9,22 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div>
-            <h3 className="text-xl font-bold mb-4">GrainTech Solutions</h3>
+            <h3 className="text-xl font-bold mb-4">
+              <span className="text-folgen-primary">Folgen</span>
+              <span className="text-folgen-secondary">Group</span>
+            </h3>
             <p className="mb-4 text-gray-300">
               Soluções de engenharia industrial especializada em armazenagem de grãos, 
               silos e sistemas logísticos para o setor agrícola.
             </p>
             <div className="flex space-x-4 mt-6">
-              <a href="#" className="text-white hover:text-grain-green-400 transition-colors">
+              <a href="#" className="text-white hover:text-folgen-secondary transition-colors">
                 <Facebook size={20} />
               </a>
-              <a href="#" className="text-white hover:text-grain-green-400 transition-colors">
+              <a href="#" className="text-white hover:text-folgen-secondary transition-colors">
                 <Instagram size={20} />
               </a>
-              <a href="#" className="text-white hover:text-grain-green-400 transition-colors">
+              <a href="#" className="text-white hover:text-folgen-secondary transition-colors">
                 <Linkedin size={20} />
               </a>
             </div>
@@ -76,7 +79,7 @@ const Footer = () => {
             <h3 className="text-xl font-bold mb-4">Contato</h3>
             <ul className="space-y-4">
               <li className="flex items-start">
-                <MapPin className="mr-2 mt-1 text-grain-green-500" size={18} />
+                <MapPin className="mr-2 mt-1 text-folgen-secondary" size={18} />
                 <span className="text-gray-300">
                   Av. Tecnologia, 1500<br />
                   Distrito Industrial<br />
@@ -84,13 +87,13 @@ const Footer = () => {
                 </span>
               </li>
               <li className="flex items-center">
-                <Phone className="mr-2 text-grain-green-500" size={18} />
+                <Phone className="mr-2 text-folgen-secondary" size={18} />
                 <span className="text-gray-300">(65) 3000-0000</span>
               </li>
               <li className="flex items-center">
-                <Mail className="mr-2 text-grain-green-500" size={18} />
-                <a href="mailto:contato@graintechsolutions.com" className="text-gray-300 hover:text-white transition-colors">
-                  contato@graintechsolutions.com
+                <Mail className="mr-2 text-folgen-secondary" size={18} />
+                <a href="mailto:contato@folgengroup.com" className="text-gray-300 hover:text-white transition-colors">
+                  contato@folgengroup.com
                 </a>
               </li>
             </ul>
@@ -99,7 +102,7 @@ const Footer = () => {
 
         <div className="border-t border-gray-800 mt-12 pt-8">
           <p className="text-center text-gray-400">
-            &copy; {new Date().getFullYear()} GrainTech Solutions. Todos os direitos reservados.
+            &copy; {new Date().getFullYear()} Folgen Group. Todos os direitos reservados.
           </p>
         </div>
       </div>

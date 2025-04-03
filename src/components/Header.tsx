@@ -38,8 +38,9 @@ const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center">
           <Link to="/" className="flex items-center">
-            <span className="text-grain-blue-600 text-2xl font-bold">
-              GrainTech<span className="text-grain-green-600">Solutions</span>
+            <span className="text-2xl font-bold">
+              <span className="text-folgen-primary">Folgen</span>
+              <span className="text-folgen-secondary">Group</span>
             </span>
           </Link>
 
@@ -47,36 +48,36 @@ const Header = () => {
           <nav className="hidden md:flex items-center space-x-8">
             <Link
               to="/"
-              className="text-gray-800 hover:text-grain-blue-600 font-semibold transition-colors"
+              className="text-gray-800 hover:text-folgen-primary font-semibold transition-colors"
             >
               Início
             </Link>
             <a
               href="#sobre"
-              className="text-gray-800 hover:text-grain-blue-600 font-semibold transition-colors"
+              className="text-gray-800 hover:text-folgen-primary font-semibold transition-colors"
             >
               Sobre Nós
             </a>
             <a
               href="#servicos"
-              className="text-gray-800 hover:text-grain-blue-600 font-semibold transition-colors"
+              className="text-gray-800 hover:text-folgen-primary font-semibold transition-colors"
             >
               Serviços
             </a>
             <a
               href="#projetos"
-              className="text-gray-800 hover:text-grain-blue-600 font-semibold transition-colors"
+              className="text-gray-800 hover:text-folgen-primary font-semibold transition-colors"
             >
               Projetos
             </a>
             <a
               href="#contato"
-              className="text-gray-800 hover:text-grain-blue-600 font-semibold transition-colors"
+              className="text-gray-800 hover:text-folgen-primary font-semibold transition-colors"
             >
               Contato
             </a>
             <Button
-              className="bg-grain-blue-600 hover:bg-grain-blue-700 text-white"
+              className="bg-folgen-primary hover:bg-folgen-secondary text-white"
               onClick={() => document.getElementById("orcamento")?.scrollIntoView({behavior: "smooth"})}
             >
               Solicitar Orçamento
@@ -102,41 +103,41 @@ const Header = () => {
             <div className="flex flex-col space-y-4 px-4">
               <Link
                 to="/"
-                className="text-gray-800 hover:text-grain-blue-600 font-semibold transition-colors"
+                className="text-gray-800 hover:text-folgen-primary font-semibold transition-colors"
                 onClick={toggleMobileMenu}
               >
                 Início
               </Link>
               <a
                 href="#sobre"
-                className="text-gray-800 hover:text-grain-blue-600 font-semibold transition-colors"
+                className="text-gray-800 hover:text-folgen-primary font-semibold transition-colors"
                 onClick={toggleMobileMenu}
               >
                 Sobre Nós
               </a>
               <a
                 href="#servicos"
-                className="text-gray-800 hover:text-grain-blue-600 font-semibold transition-colors"
+                className="text-gray-800 hover:text-folgen-primary font-semibold transition-colors"
                 onClick={toggleMobileMenu}
               >
                 Serviços
               </a>
               <a
                 href="#projetos"
-                className="text-gray-800 hover:text-grain-blue-600 font-semibold transition-colors"
+                className="text-gray-800 hover:text-folgen-primary font-semibold transition-colors"
                 onClick={toggleMobileMenu}
               >
                 Projetos
               </a>
               <a
                 href="#contato"
-                className="text-gray-800 hover:text-grain-blue-600 font-semibold transition-colors"
+                className="text-gray-800 hover:text-folgen-primary font-semibold transition-colors"
                 onClick={toggleMobileMenu}
               >
                 Contato
               </a>
               <Button
-                className="bg-grain-blue-600 hover:bg-grain-blue-700 text-white"
+                className="bg-folgen-primary hover:bg-folgen-secondary text-white"
                 onClick={() => {
                   document.getElementById("orcamento")?.scrollIntoView({behavior: "smooth"});
                   toggleMobileMenu();

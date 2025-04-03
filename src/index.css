@@ -124,15 +124,15 @@
   }
   
   .btn-primary {
-    @apply bg-grain-blue-600 text-white hover:bg-grain-blue-700 px-6 py-3 rounded-md font-semibold transition-all duration-300;
+    @apply bg-folgen-primary text-white hover:bg-folgen-secondary px-6 py-3 rounded-md font-semibold transition-all duration-300;
   }
   
   .btn-secondary {
-    @apply bg-grain-green-600 text-white hover:bg-grain-green-700 px-6 py-3 rounded-md font-semibold transition-all duration-300;
+    @apply bg-folgen-secondary text-white hover:bg-folgen-primary px-6 py-3 rounded-md font-semibold transition-all duration-300;
   }
   
   .btn-outline {
-    @apply border-2 border-grain-blue-600 text-grain-blue-600 hover:bg-grain-blue-600 hover:text-white px-6 py-3 rounded-md font-semibold transition-all duration-300;
+    @apply border-2 border-folgen-primary text-folgen-primary hover:bg-folgen-primary hover:text-white px-6 py-3 rounded-md font-semibold transition-all duration-300;
   }
 
   .card-service {

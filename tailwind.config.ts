@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss";
 
 export default {
@@ -63,7 +62,11 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				// Custom colors for the grain engineering company
+				folgen: {
+					primary: '#0041AD',
+					secondary: '#0086ED',
+					gray: '#919191',
+				},
 				'grain-blue': {
 					50: '#E3F2FD',
 					100: '#BBDEFB',
